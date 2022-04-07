@@ -164,6 +164,5 @@ class ExpertStripSetting
         add_action('admin_menu', 'expert_strip_page_setting');
     }
 }
-
 $expertStrip = new ExpertStrip();
 $expertStripSetting = new ExpertStripSetting();
